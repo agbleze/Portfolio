@@ -1,3 +1,17 @@
 *, *::body, *::after {
     box-sizing: border-box;
 }
+
+/* Custom properties, update these for yourown design */
+
+:root {
+    --ff-primary: 'Source Sans Pro', sans-serif;
+    --ff-secondary: 'Source Code Pro', monospace;
+
+    --fw-reg: 300;
+    --fw-bold: 900;
+
+    --clr-light: #fff;
+    --clr-dark: #303030;
+    
+}
