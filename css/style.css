@@ -41,6 +41,17 @@ body {
     line-height: 1.6;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/* Typogrpahy */
+h1, h2, h3 {
+    line-height: 1.1;
+    margin: 0;
+}
+
 
 
 
