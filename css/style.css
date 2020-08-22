@@ -41,6 +41,10 @@ body {
     line-height: 1.6;
 }
 
+section {
+    padding: 5em 2em;
+}
+
 img {
     display: block;
     max-width: 100%;
@@ -68,5 +72,35 @@ h3 { font-size: var(--fs-h3)}
     display: block;
 }
 
+.para-intro {
+    font-size: var(--fs-h3);
+    margin: 0;
 
+}
 
+.section__subtitle--intro,
+.section__subtitle--about {
+    background: var(--clr-accent);
+    font-family: var(--ff-secondary);
+    margin-bottom: 1em;
+}
+
+/* header*/
+nav {
+    display: none;
+}
+
+/* intro */
+.intro {
+    position: relative;
+}
+
+@media (min-width: 600px) {
+    .intro {
+        display: grid;
+        width: min-content;
+        margin: 0 auto;
+        grid-column-gap: 1em;
+        grid-template-areas:
+    }
+}
