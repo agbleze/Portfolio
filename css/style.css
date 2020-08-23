@@ -250,8 +250,18 @@ nav {
     }
 }
 
-. {
-
+.my-work {
+    background-color: var(--clr-accent);
+    color: var(--clr-light);
+    text-align: center;
 }
 
-.
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto off, minmax(300px, 1fr))
+}
+
+.portfolio__item {
+    background-color: var(--clr-accent);
+    overflow: hidden;
+}
