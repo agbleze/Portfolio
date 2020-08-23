@@ -316,4 +316,9 @@ nav {
     display: flex;
     justify-content: center;
     margin: 2em 0 0;
+    padding: 0;
+}
+
+.social-list__item {
+    margin: 0 .5em;
 }
