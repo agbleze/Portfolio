@@ -293,4 +293,8 @@ nav {
     font-size: var(--fs-h3);
 }
 
+.footer a {
+    color: inherit;
+}
+
 
