@@ -134,8 +134,8 @@ header {
     bottom: 0;
     left: 0;
     right: 0;
-  /*  z-index: 100; */
-  /*  transform: translateX(100%); */
+    z-index: 100; 
+    transform: translateX(100%); 
     transition: transform 250ms cubic-bezier(.5, 0, .5, 1);
 }
 
@@ -155,6 +155,10 @@ header {
     font-weight: var(--fw-bold);
     font-size: var(--fs-h2);
     text-decoration: none;
+}
+
+.nav__link:hover {
+    color: var(--clr-accent);
 }
 
 /* intro */
@@ -204,7 +208,7 @@ header {
     background-color: var(--clr-dark);
     background-image: url(../img/services-bg.jpg);
     background-size: cover;
-    /* background-blend-mode: multiply; */
+    background-blend-mode: multiply; 
     color: var(--clr-light);
     text-align: center;
 }
