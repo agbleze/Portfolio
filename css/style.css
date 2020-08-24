@@ -404,3 +404,4 @@ header {
 }
 
 .hamburger::before { top: 6px; }
+.hamburger::after { bottom: 6px;}
