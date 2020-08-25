@@ -180,6 +180,10 @@ header {
     position: fixed;
 }
 
+.nav-open .hamburger {
+    transform: rotate(.625turn);
+}
+
 /* intro */
 .intro {
     position: relative;
