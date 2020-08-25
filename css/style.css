@@ -184,6 +184,9 @@ header {
     transform: rotate(.625turn);
 }
 
+.nav-open .hamburger::before {
+    transform: rotate(90deg) translateX(-6px);
+}
 /* intro */
 .intro {
     position: relative;
