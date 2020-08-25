@@ -176,6 +176,10 @@ header {
     transform: translateX(0);
 }
 
+.nav-open .nav-toggle {
+    
+}
+
 /* intro */
 .intro {
     position: relative;
