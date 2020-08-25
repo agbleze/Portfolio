@@ -177,7 +177,7 @@ header {
 }
 
 .nav-open .nav-toggle {
-    
+    position: fixed;
 }
 
 /* intro */
