@@ -172,6 +172,10 @@ header {
     z-index: 1000;
 }
 
+.nav-open .nav {
+    transform: translateX(0);
+}
+
 /* intro */
 .intro {
     position: relative;
