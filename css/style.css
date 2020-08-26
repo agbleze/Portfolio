@@ -78,12 +78,12 @@ strong { font-weight: var(--fw-bold) }
     letter-spacing: 2px;
     font-weight: var(--fw-bold);
     transition: transform 200ms ease-in-out;
-
 }
 
 .btn:hover {
     transform: scale(1.1)
 }
+
 /* Typogrpahy */
 h1, h2, h3 {
     line-height: 1.1;
