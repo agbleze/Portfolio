@@ -35,10 +35,10 @@
     }
 }
 
-/* General styles */
+/* General styles 
 html {
     scroll-behavior: smooth;
-}
+}  */
 
 body {
     background: var(--clr-light);
@@ -124,7 +124,7 @@ h3 { font-size: var(--fs-h3)}
 
 .section__subtitle--work {
     color: var(--clr-accent);
-    font-size: var(--fw-bold);
+    font-weight: var(--fw-bold);
     margin-bottom: 2em;
 }
 
@@ -347,7 +347,7 @@ header {
 
 .portfolio {
     display: grid;
-    grid-template-columns: repeat(auto, minmax(300px, 1fr))
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))
 }
 
 .portfolio__item {
