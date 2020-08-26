@@ -100,15 +100,15 @@ h3 { font-size: var(--fs-h3)}
     margin-bottom: .25em;
 }
 
-.intro {
+.section__title--intro {
     font-weight: var(--fw-reg);
 }
 
-.title-intro strong {
+.section__title--intro strong {
     display: block;
 }
 
-.para-intro {
+.section__subtitle {
     font-size: var(--fs-h3);
     margin: 0;
 
