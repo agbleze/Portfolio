@@ -85,8 +85,10 @@ strong { font-weight: var(--fw-bold) }
 }
 
 /* Typogrpahy */
-h1, h2, h3 {
-    line-height: 1.1;
+h1, 
+h2, 
+h3 {
+    line-height: 1;
     margin: 0;
 }
 
@@ -94,7 +96,7 @@ h1 { font-size: var(--fs-h1)}
 h2 { font-size: var(--fs-h2)}
 h3 { font-size: var(--fs-h3)}
 
-.section_title {
+.section__title {
     margin-bottom: .25em;
 }
 
