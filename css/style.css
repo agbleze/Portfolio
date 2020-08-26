@@ -284,7 +284,7 @@ header {
 }
 
 @media (min-width: 800px) {
-   .service {
+   .services {
        display: flex;
        max-width: 1000px;
        margin-right: auto;
@@ -337,15 +337,17 @@ header {
     }
 }
 
+/* My work */ 
+
 .my-work {
-    background-color: var(--clr-accent);
+    background-color: var(--clr-dark);
     color: var(--clr-light);
     text-align: center;
 }
 
 .portfolio {
     display: grid;
-    grid-template-columns: repeat(auto off, minmax(300px, 1fr))
+    grid-template-columns: repeat(auto, minmax(300px, 1fr))
 }
 
 .portfolio__item {
