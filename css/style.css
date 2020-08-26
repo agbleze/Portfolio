@@ -249,11 +249,12 @@ header {
     display: inline-block;
 }
 
+/* My services section */
 .my-service {
     background-color: var(--clr-dark);
     background-image: url(../img/services-bg.jpg);
     background-size: cover;
-    background-blend-mode: multiply; 
+ /*   background-blend-mode: multiply; */
     color: var(--clr-light);
     text-align: center;
 }
@@ -273,7 +274,7 @@ header {
     opacity: 0.25;
 }
 
-.service {
+.services {
     margin-bottom: 4em;
 }
 
