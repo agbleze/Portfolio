@@ -34,6 +34,9 @@
 }
 
 /* General styles */
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     background: var(--clr-light);
@@ -424,3 +427,19 @@ header {
 
 .hamburger::before { top: 6px; } 
 .hamburger::after { bottom: 6px;}
+
+.nav-open {
+    background-color: red;
+}
+
+/* Individual portfolio item styles */
+
+
+
+
+
+
+
+
+
+
