@@ -204,9 +204,15 @@ header {
 .nav-open .hamburger::after {
     opacity: 0;
 }
+
 /* intro */
+
 .intro {
     position: relative;
+}
+
+.intro__img {
+    box-shadow: var(--bs);
 }
 
 @media (min-width: 600px) {
@@ -227,10 +233,6 @@ header {
     min-width: 250px;
     position: relative;
     z-index: 2;
-}
-
-.intro__img {
-    box-shadow: var(--bs);
 }
 
 .section__subtitle--intro {
@@ -437,10 +439,6 @@ header {
 
 .hamburger::before { top: 6px; } 
 .hamburger::after { bottom: 6px;}
-
-.nav-open {
-    background-color: red;
-}
 
 /* Individual portfolio item styles */
 
