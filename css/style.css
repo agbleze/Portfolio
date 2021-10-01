@@ -460,7 +460,7 @@ header {
 .services{
     display: grid;
     grid-template-columns: auto auto auto;
-    grid
+    
 }
 
 .service{
@@ -469,4 +469,12 @@ header {
     padding: 2em;
     white-space: 1.5em;
     line-height: 1.5em;
+}
+
+.read{
+    background:#303030;
+    border-bottom: .2em;
+    /* position:; */
+    padding: .2em;
+    white-space: .2em;
 }
