@@ -275,12 +275,14 @@ header {
 }
 
 .services {
-    margin-bottom: 4em;
+    /* margin-bottom: 4em; */
 }
 
 .service {
-    max-width: 500px;
-    margin: 0 auto;
+    /* max-width: 50vh;
+    min-height: 20vh; */
+    /* margin: 0 auto; */
+    flex: 1 1 33%
 }
 
 @media (min-width: 800px) {
@@ -458,23 +460,29 @@ header {
 }
 
 .services{
-    display: grid;
-    grid-template-columns: auto auto auto;
+    /* display: grid;
+    grid-template-columns: auto auto auto; */
     
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    /* flex: 1 1 33%; */
 }
 
 .service{
     background:#111;
-    margin-bottom: 2em;
+    margin: 1.2em;
     padding: 2em;
     white-space: 1.5em;
     line-height: 1.5em;
+    
 }
 
-.read{
-    background:#303030;
-    border-bottom: .2em;
-    /* position:; */
+.btn-read{
+    background:#bbbccc;
+    /* border-bottom: 2.2px;
+     position: absolute;  */
     padding: .2em;
     white-space: .2em;
+    font-weight: 700px;
 }
