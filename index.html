@@ -13,9 +13,9 @@
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img src="img/devjane.png" alt="">
-        </div>
+        <!-- <div class="logo">
+            <img src="img/Linus_snow.jpeg" alt="">
+        </div> -->
         <button class="nav-toggle" aria-label="toggle navigation">
             <span class="hamburger"></span>
         </button>
@@ -29,13 +29,33 @@
         </nav>
     </header>
 
-    <!--Introduction-->
+    <!-- Introduction
     <section class="intro" id="home">
         <h1 class="section__title section__title--intro">
             Hi, I am <strong>Linus</strong>
         </h1>
-        <p class="section__subtitle section__subtitle--intro">Frond-end dev</p>
-        <img src="img/dev-jane-01.jpg" alt="my-pic" class="intro__img">
+        <p class="section__subtitle section__subtitle--intro">Data scientist and Developer</p>
+        <img src="img/Linus_snow.jpeg" alt="my-pic" class="intro__img">
+    </section> -->
+
+    <!--About me-->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">My profile </h2>
+        <p class="section__subtitle section__subtitle--about">Data Scientist and Developer</p>
+        
+        <div class="about-me__body">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                In quas omnis possimus animi inventore odit fugiat, voluptatem dolores 
+                impedit recusandae beatae quos minima eius asperiores neque eveniet, 
+                pariatur, culpa placeat.</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                In quas omnis possimus animi inventore odit fugiat, voluptatem dolores 
+                impedit recusandae beatae quos minima eius asperiores neque eveniet, 
+                pariatur, culpa placeat.</p>
+        </div>
+
+        <img src="img/Linus_snow.jpeg" alt="" class="about-me__img">
     </section>
 
     <!--My services-->
@@ -93,109 +113,137 @@
             </div> <!--/service-->
         </div> <!--/service-->
 
-        <a href="work" class="btn"> My work</a>
+        <!-- <a href="work" class="btn"> My work</a> -->
     </section>
 
-    <!--About me-->
-    <section class="about-me" id="about">
-        <h2 class="section__title section__title--about">My profile </h2>
-        <p class="section__subtitle section__subtitle--about">Data analyst and developer</p>
-        
-        <div class="about-me__body">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                In quas omnis possimus animi inventore odit fugiat, voluptatem dolores 
-                impedit recusandae beatae quos minima eius asperiores neque eveniet, 
-                pariatur, culpa placeat.</p>
-
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                In quas omnis possimus animi inventore odit fugiat, voluptatem dolores 
-                impedit recusandae beatae quos minima eius asperiores neque eveniet, 
-                pariatur, culpa placeat.</p>
-        </div>
-
-        <img src="img/dev-jane-02.jpg" alt="" class="about-me__img">
-    </section>
+    
 
     <!--My work-->
     <section class="my-work" id="work">
-        <h2 class="section__title section__title--work">My work</h2>
+        <h2 class="section__title section__title--work">Some of my works</h2>
         <p class="section__subtitle section__subtitle--work">Check this out</p>
 
         <div class="portfolio">
             <!--Portfolio item 01-->
-            <a href="portfolio-item.html" class="portfolio__item">
-                <img src="img/portfolio-01.jpg" alt="" class="portfolio__img">
-            </a>
+            <!-- <div class="portfolio_item">
+
+            </div> -->
+            <div class="portfolio-card">
+                <a href="https://agbleze.shinyapps.io/USElections_shinyapp/" class="portfolio__item" target="_blank">
+                    <img src="img/dashboard.png" alt="" class="portfolio__img">
+                </a>
+
+                <div class="button-div">
+                    <button class="btn-portfolio" href="https://agbleze.shinyapps.io/USElections_shinyapp/" target="_blank">
+                        Dashboard design
+                    </button>
+                </div>
+
+            </div>
+            
 
             <!--Portfolio item 02-->
-            <a href="portfolio-item.html" class="portfolio__item">
-                <img src="img/portfolio-02.jpg" alt="" class="portfolio__img">
-            </a>
+            <div class="portfolio-card">
+                <a href="https://agbleze.shinyapps.io/GIS-Ecosystem-services-shiny-app/" class="portfolio__item" target="_blank">
+                    <img src="img/geospatial-analysis.png" alt="" class="portfolio__img">
+                </a>
+
+                <div class="button-div">
+                    <button class="btn-portfolio" href="https://agbleze.shinyapps.io/GIS-Ecosystem-services-shiny-app/" target="_blank">
+                        Geospatial analysis
+                    </button>
+                </div>
+            </div>
+            
 
             <!--Portfolio 3-->
-            <a href="portfolio-item.html" class="portfolio__item">
-                <img src="img/portfolio-03.jpg" alt="" class="portfolio__img">
-            </a>
+            <div class="portfolio-card">
+                <a href="https://agbleze.shinyapps.io/Naive_Bayes_classifiers/" class="portfolio__item" target="_blank">
+                    <img src="img/naive-model.png" alt="" class="portfolio__img">
+                </a>
 
+                <div class="button-div">
+                    <button class="btn-portfolio">Machine Learning</button>
+                </div>
+    
+            </div>
+            
             <!--prt 4-->
-            <a href="portfolio-item.html" class="portfolio__item">
-                <img src="img/portfolio-04.jpg" alt="" class="portfolio__img">
-            </a>
+            <div class="portfolio-card">
+                <a href=" https://agbleze.shinyapps.io/GA-Analytics/" class="portfolio__item" target="_blank">
+                    <img src="img/transaction-forecasting.png" alt="" class="portfolio__img">
+                </a>
+
+                <div class="button-div">
+                    <button class="btn-portfolio">Timeseries & Forecasting</button>
+                </div>
+            </div>
+            
 
             <!--prt 5-->
-            <a href="portfolio-item.html" class="portfolio__item">
-                <img src="img/portfolio-05.jpg" alt="" class="portfolio__img">
-            </a>
+            <div class="portfolio-card">
+                <a href="https://agbleze.shinyapps.io/GA-Analytics/" class="portfolio__item" target="_blank">
+                    <img src="img/KPI-monitor.png" alt="" class="portfolio__img">
+                </a>
+
+                <div class="button-div">
+                    <button class="btn-portfolio">Google Web analytics</button>
+                </div>
+            </div>
+            
 
             <!--prt 6-->
-            <a href="portfolio-item.html" class="portfolio__item">
-                <img src="img/portfolio-06.jpg" alt="" class="portfolio__img">
-            </a>
+            <!-- <div>
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/" alt="" class="portfolio__img">
+                </a>
+            </div>
+             -->
 
             <!--prt 7-->
-            <a href="portfolio-item.html" class="portfolio__item">
+            <!-- <a href="portfolio-item.html" class="portfolio__item">
                 <img src="img/portfolio-07.jpg" alt="" class="portfolio__img">
-            </a>
+            </a> -->
 
             <!--prt 8-->
-            <a href="portfolio-item.html" class="portfolio__item">
+            <!-- <a href="portfolio-item.html" class="portfolio__item">
                 <img src="img/portfolio-08.jpg" alt="" class="portfolio__img">
-            </a>
+            </a> -->
 
             <!--prt 9-->
-            <a href="portfolio-item.html" class="portfolio__item">
+            <!-- <a href="portfolio-item.html" class="portfolio__item">
                 <img src="img/portfolio-09.jpg" alt="" class="portfolio__img">
-            </a>
+            </a> -->
 
             <!--prt 10-->
-            <a href="portfolio-item.html" class="portfolio__item">
+            <!-- <a href="portfolio-item.html" class="portfolio__item">
                 <img src="img/portfolio-10.jpg" alt="" class="portfolio__img">
-            </a>
+            </a> -->
 
         </div>
     </section>
 
     <footer class="footer">
-        <a href="mailto:hello@jane.dev" class="foot_link">Linus@dev</a>
+        <a href="mailto:linusagbleze@gmail.com" class="foot_link">Linus@dev</a>
         <ul class="social-list">   
             <li class="social-list__item">
-                <a href="https://codepen.io" class="social-list__link">
+                <a href="https://codepen.io" class="social-list__link" target="_blank">
                     <i class="fab fa-codepen"></i>
                 </a>
 
             </li>
-            <li class="social-list__item">
+            <!-- <li class="social-list__item">
                 <a href="http://dribbble.com" class="social-list__link">
                     <i class="fab fa-dribble"></i>
                 </a>
-            </li>
+            </li> -->
             <li class="social-list__item">
-                <a href="https://twitter.com" class="social-list__link">
+                <a href="https://twitter.com" class="social-list__link" target="_blank">
                     <i class="fab fa-twitter"></i>
                 </a>
             </li>
             <li class="social-list__item">
-                <a href="https://github.com" class="social-list__link">
+                <a href="https://github.com" class="social-list__link" target="_blank">
                     <i class="fab fa-github"></i>
                 </a>
             </li>
