@@ -538,6 +538,15 @@ header {
     padding: .5em;
 }
 
+.btn-blog {
+    font-weight: bold;
+    background-color: #2ec9cc;
+    border-radius: 30em;
+    opacity: var(--bs);
+    padding: 0.5em;
+    width: 30%;
+}
+
 .about-me__body p{
     line-height: 1.5em;
     font-size: 1.2em;
